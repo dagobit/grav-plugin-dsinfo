@@ -1,0 +1,77 @@
+name: DS Firmeninformationen
+description: "Firmeninformationen zentral verwalten via Plugin"
+version: 1.0.0
+author:
+  name: Uli Renz
+  email: info@digitaler-standort.de
+  url: https://www.digitaler-standort.de
+icon: info
+license: MIT
+
+form:
+    validation: loose
+    fields:
+
+        content:
+            type: section
+            title: 'Adressdaten'
+            underline: true
+        company:
+            type: text
+            label: 'Firmenname'
+            size: medium
+            placeholder: 'Firma Mustermann'
+        address:
+            type: text
+            label: 'Adresse'
+            placeholder: 'Musterstrasse 52'
+            size: medium
+        city:
+            type: text
+            # type: textarea
+            label: 'Adresse'
+            placeholder: '96126 Maroldsweisach'
+            size: medium
+        taxid:
+            type: text
+            # type: textarea
+            label: 'Steuernumer'
+            placeholder: 'xxx/xxx/xxx'
+            size: medium
+        email:
+          type: text
+          label: 'E-Mail'
+          size: medium
+          placeholder: 'E-mail'
+        email_slogan:
+          type: text
+          label: 'E-Mail Slogan'
+          size: medium
+          placeholder: 'E-mail akzeptieren wir rund um die Uhr'
+        phone:
+          type: text
+          label: 'Telefonnummer'
+          size: medium
+          placeholder: '09532 / XXX'
+        fax:
+          type: text
+          label: 'Faxnummer'
+          size: medium
+          placeholder: '09532 / XXX'
+        opening_hours:
+          type: text
+          label: 'Öffnungszeiten'
+          size: medium
+          placeholder: 'Montag bis Freitag 9-17 Uhr'
+
+        # email:
+        #     type: array
+        #     label: 'Email Addresses'
+        #     placeholder_key: Key
+        #     placeholder_value: Email Address
+        # 
+        # phone:
+        #     type: array
+        #     label: 'Phone Numbers'
+        #     placeholder_key: Key
+        #     placeholder_value: Phone Number
